@@ -7,8 +7,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>{outputText}</Text>
-      <Button title='change text'  onPress={() => setOutputText('Happy beginning')}/>  
-      <StatusBar style="auto"/>
+      <Button title='Change text'  onPress={() => setOutputText('Happy beginning')}/>  
+      {/*<StatusBar style="auto"/>
+       this for multi commetn lines and i will ignore this line command as it is not important*/}
     </View>
   );
 }
