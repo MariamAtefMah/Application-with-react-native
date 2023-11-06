@@ -9,7 +9,7 @@ export default function App() {
       <Text>{outputText}</Text>
       <Button title='Change text'  onPress={() => setOutputText('Happy beginning')}/>  
       {/*<StatusBar style="auto"/>
-       this for multi commetn lines and i will ignore this line command as it is not important*/}
+       this for multi commetn lines and it will ignore this line command as it is not important*/}
     </View>
   );
 }
